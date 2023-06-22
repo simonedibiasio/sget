@@ -26,11 +26,13 @@ shellcode = b'\x6a\x0b\x58\x99\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\x
 
 ## Usage
 
-Options:
 ```
--h, --help  show this help message and exit
--u URL      URL
--f FILE     Path to the file containing the shellcode
+usage: sget.py [-h] (-u URL | -f FILE)
+
+options:
+  -h, --help  show this help message and exit
+  -u URL      URL
+  -f FILE     File path
 ```
 
 With an url:
